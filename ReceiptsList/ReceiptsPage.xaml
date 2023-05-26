@@ -1,0 +1,32 @@
+﻿<Page x:Class="ReceiptsList.ReceiptsPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ReceiptsList"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ReceiptsPage">
+
+    <ScrollViewer>
+        <ItemsControl x:Name="receiptsItemsControl">
+            <ItemsControl.ItemTemplate>
+                <DataTemplate>
+                    <Border >
+                        <Grid Margin="10">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200" />
+                                <ColumnDefinition />
+                            </Grid.ColumnDefinitions>
+                            <StackPanel Grid.Column="1">
+                                <TextBlock FontSize="20" Text="{Binding Name}" />
+                                <TextBlock TextWrapping="WrapWithOverflow" Text="{Binding Description}" />
+                                <TextBlock Text="Ингридиенты: " />
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ItemsControl.ItemTemplate>
+        </ItemsControl>
+    </ScrollViewer>
+</Page>
