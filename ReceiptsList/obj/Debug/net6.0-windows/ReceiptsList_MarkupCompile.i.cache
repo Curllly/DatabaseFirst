@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Ageev\DatabaseFirst\ReceiptsList\obj\Debug\net6.0-windows\
+D:\Study\ИС\DatabaseFirst\ReceiptsList\obj\Debug\net6.0-windows\
 ReceiptsList
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Ageev\DatabaseFirst\ReceiptsList\App.xaml
-2343003017
+D:\Study\ИС\DatabaseFirst\ReceiptsList\App.xaml
+31202283797
 
-61322493581
-222-481438601
-MainWindow.xaml;ReceiptsPage.xaml;
+14-1243676891
+2221711165881
+IngridientsPage.xaml;MainWindow.xaml;ReceiptsPage.xaml;
 
-False
+True
 

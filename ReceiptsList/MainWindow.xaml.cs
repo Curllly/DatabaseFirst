@@ -30,5 +30,11 @@ namespace ReceiptsList
             var page = new ReceiptsPage();
             mainFrame.Navigate(page);
         }
+
+        private void goToIngridientsPage(object sender, RoutedEventArgs e)
+        {
+            var page = new IngridientsPage();
+            mainFrame.Navigate(page);
+        }
     }
 }

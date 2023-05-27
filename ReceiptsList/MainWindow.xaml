@@ -14,7 +14,8 @@
                 <Button Background="#E9FFF9"
                         Click="goToReceiptsPage"
                         Content="Список рецептов" Margin="6" Padding="10" Width="170" />
-                <Button Background="#E9FFF9" Content="Список ингридиентов" Margin="6" Padding="10" Width="170" />
+                <Button Background="#E9FFF9" Content="Список ингридиентов" Margin="6" Padding="10" Width="170"
+                        Click="goToIngridientsPage"/>
             </StackPanel>
         </Border>
         <Frame x:Name="mainFrame" NavigationUIVisibility="Hidden" />
